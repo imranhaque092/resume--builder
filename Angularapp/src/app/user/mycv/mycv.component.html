@@ -1,0 +1,159 @@
+
+<div class="card">
+ 
+    <div *ngFor="let data of personData">
+
+        <h1><u>Resume of {{data.firstName}} {{data.lastName}}</u></h1>
+        <div class="card-header">
+            <h1 class="text-uppercase">Personal Information:</h1>
+        </div>
+        <div class="card-body">
+            
+                <table class="table table-bordered">
+                    <tr>
+                        <td for="Name">First Name:</td>
+                            <td>{{data.firstName}}</td>
+                        
+                    </tr>
+                    <tr>
+                        <td for="Name">Last Name:</td>
+                            <td>{{data.lastName}}</td>
+                        
+                    </tr>
+                    <tr>
+                        <td for="FName">Father Name:</td>
+                          <td>{{data.fatherName}}</td>
+                    </tr>
+                    <tr>
+                        <td for="MName">Mother Name:</td>
+                        <td>{{data.motherName}}</td>
+                    </tr>
+
+                    <tr>
+                        <td for="DOB">Date of bith:</td>
+                        <td>{{data.dateOfBirth}}</td>
+                    </tr>
+
+
+                    <tr>
+
+                        <td  for="Gender">
+                            Gender:
+                        </td>
+                        <td>{{data.gender}}</td>
+                    </tr>
+
+                    <tr>
+                        <td for="MaritalStatus"> Marital Status:</td>
+                        <td>{{data.maritalStatus}}</td>
+                    </tr>
+  
+
+               
+                    <tr >
+
+                        <td class="form-check-label" for="MaritalStatus">
+                            Permanent Address:
+                        </td>
+                        <td>{{data.permanentAddress}}</td>
+                    </tr>
+        
+                    <tr>
+                        <td for="Name">Present Address:</td>
+                            <td>{{data.presentAddress}}</td>
+                        
+                    </tr>
+                    <tr>
+                        <td for="Name">Lavel Of Education:</td>
+                            <td>{{data.lavelOfEducation}}</td>
+                        
+                    </tr>
+                    <tr>
+                        <td for="Name">Exam Name:</td>
+                            <td>{{data.examName}}</td>
+                        
+                    </tr>
+                    <tr>
+                        <td for="Name">Major Subject:</td>
+                            <td>{{data.majorSubject}}</td>
+                        
+                    </tr>
+                    <tr>
+                        <td for="Name">Institute Name:</td>
+                            <td>{{data.instituteName}}</td>
+                        
+                    </tr>
+                    <tr>
+                        <td for="Name">Result:</td>
+                            <td>{{data.result}}</td>
+                        
+                    </tr>
+                    <tr>
+                        <td for="Name">Year Of Passing:</td>
+                            <td>{{data.yearOfPassing}}</td>
+                        
+                    </tr>
+                    <tr>
+                        <td for="Name">Duration:</td>
+                            <td>{{data.duration}}</td>
+                        
+                    </tr>
+                    <tr>
+                        <td for="Name">Company Name:</td>
+                            <td>{{data.companyName}}</td>
+                        
+                    </tr>
+                    <tr>
+                        <td for="Name">Company Business:</td>
+                            <td>{{data.companyBusiness}}</td>
+                        
+                    </tr>
+                    <tr>
+                        <td for="Name">Designation:</td>
+                            <td>{{data.designation}}</td>
+                        
+                    </tr>
+                    <tr>
+                        <td for="Name">Department:</td>
+                            <td>{{data.department}}</td>
+                        
+                    </tr>
+                    <tr>
+                        <td for="Name">Start date:</td>
+                            <td>{{data.startdate}}</td>
+                        
+                    </tr>
+                    <tr>
+                        <td for="Name">End Date:</td>
+                            <td>{{data.endDate}}</td>
+                        
+                    </tr>
+                </table>
+            
+
+            <footer>
+            <!--     <div class="form-group col-md-12" >
+                    <button type="submit" class="btn" [disabled]="fg.invalid"
+                    [ngClass]="(fg.get('candidateID').value==0)?'btn-success':'btn-outline-dark'"><i
+                        class="far fa-save fa-lg"></i>
+                    {{fg.get('candidateID').value==0?'Submit':'Update'}}
+                </button>
+                <button class="btn btn-light ml-1" (click)="onDelete(fg.get('candidateID').value,i)">
+                    <i class="far fa-trash-alt fa-lg text-danger"></i>
+                </button>
+                </div>  -->
+                <button >
+                <a href="#" [routerLink]="['/CandidateComponent']" *ngIf="!home">Edit</a>
+                
+                        
+                </button>
+            </footer>
+
+        </div>
+    </div>
+
+
+
+
+
+</div>

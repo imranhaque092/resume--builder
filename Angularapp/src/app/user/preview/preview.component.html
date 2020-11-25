@@ -1,0 +1,145 @@
+
+<div class="card">
+ 
+    <div *ngFor="let data of personData">
+        <div class="card-header">
+            <h1 class="text-uppercase">Personal Information:</h1>
+        </div>
+        <div class="card-body">
+            
+                <table class="table table-bordered">
+                    <tr>
+                        <td for="Name">First Name:</td>
+                            <td>{{data.firstName}}</td>
+                        
+                    </tr>
+                    <tr>
+                        <td for="Name">Last Name:</td>
+                            <td>{{data.lastName}}</td>
+                        
+                    </tr>
+                    <tr>
+                        <td for="FName">Father Name:</td>
+                          <td>{{data.fatherName}}</td>
+                    </tr>
+                    <tr>
+                        <td for="MName">Mother Name:</td>
+                        <td>{{data.motherName}}</td>
+                    </tr>
+
+                    <tr>
+                        <td for="DOB">Date of bith:</td>
+                        <td>{{data.dateOfBirth}}</td>
+                    </tr>
+
+
+                    <tr>
+
+                        <td  for="Gender">
+                            Gender:
+                        </td>
+                        <td>{{data.gender}}</td>
+                    </tr>
+
+                    <tr>
+                        <td for="MaritalStatus"> your Adress:</td>
+                        <td>{{data.maritalStatus}}</td>
+                    </tr>
+  
+
+               
+                    <tr >
+
+                        <td class="form-check-label" for="MaritalStatus">
+                            Marital status:
+                        </td>
+                        <td>{{data.permanentAddress}}</td>
+                    </tr>
+        
+                    <tr>
+                        <td for="Name">First Name:</td>
+                            <td>{{data.presentAddress}}</td>
+                        
+                    </tr>
+                    <tr>
+                        <td for="Name">First Name:</td>
+                            <td>{{data.lavelOfEducation}}</td>
+                        
+                    </tr>
+                    <tr>
+                        <td for="Name">First Name:</td>
+                            <td>{{data.examName}}</td>
+                        
+                    </tr>
+                    <tr>
+                        <td for="Name">First Name:</td>
+                            <td>{{data.majorSubject}}</td>
+                        
+                    </tr>
+                    <tr>
+                        <td for="Name">First Name:</td>
+                            <td>{{data.instituteName}}</td>
+                        
+                    </tr>
+                    <tr>
+                        <td for="Name">First Name:</td>
+                            <td>{{data.result}}</td>
+                        
+                    </tr>
+                    <tr>
+                        <td for="Name">First Name:</td>
+                            <td>{{data.yearOfPassing}}</td>
+                        
+                    </tr>
+                    <tr>
+                        <td for="Name">First Name:</td>
+                            <td>{{data.duration}}</td>
+                        
+                    </tr>
+                    <tr>
+                        <td for="Name">First Name:</td>
+                            <td>{{data.companyName}}</td>
+                        
+                    </tr>
+                    <tr>
+                        <td for="Name">First Name:</td>
+                            <td>{{data.companyBusiness}}</td>
+                        
+                    </tr>
+                    <tr>
+                        <td for="Name">First Name:</td>
+                            <td>{{data.designation}}</td>
+                        
+                    </tr>
+                    <tr>
+                        <td for="Name">First Name:</td>
+                            <td>{{data.department}}</td>
+                        
+                    </tr>
+                    <tr>
+                        <td for="Name">First Name:</td>
+                            <td>{{data.startdate}}</td>
+                        
+                    </tr>
+                    <tr>
+                        <td for="Name">First Name:</td>
+                            <td>{{data.endDate}}</td>
+                        
+                    </tr>
+                </table>
+            
+
+            <footer>
+                <button class="btn btn-primary" type="submit">
+                    <i class="fas fa-plus"></i> Go to for Edit...
+                </button>
+            </footer>
+
+        </div>
+    </div>
+
+
+
+
+
+</div>

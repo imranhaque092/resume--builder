@@ -1,0 +1,200 @@
+
+
+<div class="" style="margin: 0 auto;width: 800px; margin-top: 30px;">
+    <div class="container">
+  
+      <h2 ><b>Resume Information</b></h2>
+      <br/>
+      <div>
+        <button class="btn btn-outline-success" (click)="addCandidateForm()">
+            <i class="fa fa-plus"></i> Add Information
+        </button>
+    </div>
+    <div >
+        <span *ngIf="notification" class="elementToFadeInAndOut">
+            <i class="fas fa-check-circle {{notification.class}}"></i>
+            {{notification.message}}
+        </span>
+    </div>
+    
+      <form class="row p-3" [formGroup]="fg" *ngFor="let fg of candidateForms.controls; let i=index;" (submit)="recordSubmit(fg)">
+        <h2 ><b>Personal Information</b></h2>
+        <br /><div class="form-group col-md-6">
+               
+        </div>
+        <div class="form-group col-md-6">
+            <label for="inputEmail4">First Name</label>
+            <input class="form-control" formControlName="firstName">
+          </div>
+    
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Last Name</label>
+            <input class="form-control" formControlName="lastName">
+          </div>
+    
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Father's Name</label>
+            <input class="form-control" formControlName="fatherName">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Mother's Name</label>
+            <input class="form-control" formControlName="motherName">
+          </div>
+    
+    
+          <div class="form-group col-md-4">
+            <label for="inputPassword4">Date of Birth</label>
+            <input type="date" class="form-control" formControlName="dateOfBirth">
+          </div>
+    
+          <div class="form-group col-md-4">
+            <label for="inputCity">Gender</label>
+            
+             <select id="inputState" class="form-control" formControlName="gender">
+              <option selected>Male</option>
+              <option>Female</option>
+            </select> 
+          </div>
+    
+          <div class="form-group col-md-4">
+            <label for="inputState">Marital Status</label>
+          
+             <select id="inputState" class="form-control" formControlName="maritalStatus">
+              <option selected>Unmarried</option>
+              <option>Married</option>
+            </select> 
+          </div>
+    
+          <div class="form-group col-md-6">
+              <label for="inputAddress">PresentcAddress</label>
+             
+               <textarea type="text" class="form-control" id="inputAddress" formControlName="permanentAddress">
+              </textarea> 
+              </div>
+            <div class="form-group col-md-6">
+              <label for="inputAddress2">Permanent Address</label>
+              
+               <textarea type="text" class="form-control" id="inputAddress2" formControlName="presentAddress">
+              </textarea> 
+              </div>
+        
+              <h2 ><b>Educational Information</b></h2><div class="form-group col-md-6">
+               
+            </div>
+        <br />
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Lavel Of Education</label>
+                <input class="form-control" formControlName="lavelOfEducation">
+              </div>
+        
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Exam Name</label>
+                <input class="form-control" formControlName="examName">
+              </div>
+        
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Major Subject</label>
+                <input class="form-control" formControlName="majorSubject">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Institute Name</label>
+                <input class="form-control" formControlName="instituteName">
+              </div>
+        
+        
+              <div class="form-group col-md-4">
+                <label for="inputPassword4">Result</label>
+                <input class="form-control" formControlName="result">
+              </div>
+        
+              
+        
+              <div class="form-group col-md-4">
+                <label for="inputState">Passing year</label>
+                <input type="date" class="form-control" formControlName="yearOfPassing">
+                <!-- <select id="inputState" class="form-control">
+                  <option selected>Unmarried</option>
+                  <option>Married</option>
+                </select> -->
+              </div>
+        
+              <div class="form-group col-md-6">
+                  <label for="inputAddress">Duration</label>
+                  <input class="form-control" formControlName="duration">
+                  <!-- <textarea type="text" class="form-control" id="inputAddress">
+                  </textarea> -->
+                  </div>
+                  <div class="form-group col-md-6">
+               
+                </div>
+                
+                  <h2 ><b>Career Information</b></h2>
+                  <div class="form-group col-md-6">
+               
+                </div>
+        <div class="form-group col-md-6">
+            <label for="inputEmail4">Company Name</label>
+            <input class="form-control" formControlName="companyName">
+          </div>
+    
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Company Business</label>
+            <input class="form-control" formControlName="companyBusiness">
+          </div>
+    
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Designation</label>
+            <input class="form-control" formControlName="designation">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Department</label>
+            <input class="form-control" formControlName="department">
+          </div>
+    
+    
+          <div class="form-group col-md-4">
+            <label for="inputPassword4">Start date</label>
+            <input type="date" class="form-control" formControlName="startdate">
+          </div>
+    
+          
+    
+          <div class="form-group col-md-4">
+            <label for="inputState">End Date</label>
+            <input type="date" class="form-control" formControlName="endDate">
+            <!-- <select id="inputState" class="form-control">
+              <option selected>Unmarried</option>
+              <option>Married</option>
+            </select> -->
+          </div>
+    
+          <div class="form-group col-md-6">
+              <!-- <label for="inputAddress">Duration</label>
+              <input class="form-control" formControlName="duration"> -->
+              <!-- <textarea type="text" class="form-control" id="inputAddress">
+              </textarea> -->
+              </div>
+              <div class="form-group col-md-6">
+               
+                </div>
+           
+    
+             <div class="form-group col-md-12" >
+                <button type="submit" class="btn" [disabled]="fg.invalid"
+                [ngClass]="(fg.get('candidateID').value==0)?'btn-success':'btn-outline-dark'"><i
+                    class="far fa-save fa-lg"></i>
+                {{fg.get('candidateID').value==0?'Submit':'Update'}}
+            </button>
+            <button class="btn btn-light ml-1" (click)="onDelete(fg.get('candidateID').value,i)">
+                <i class="far fa-trash-alt fa-lg text-danger"></i>
+            </button>
+            </div> 
+            <button >
+            <a href="#" [routerLink]="['/MycvComponent']" *ngIf="!MycvComponent">View</a>
+            
+                    
+            </button>
+      </form>
+    </div>
+    
+  </div>

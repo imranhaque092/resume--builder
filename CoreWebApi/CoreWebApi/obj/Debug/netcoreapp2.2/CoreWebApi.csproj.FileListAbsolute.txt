@@ -1,0 +1,16 @@
+C:\Users\imran\Desktop\1254159-Md.Anarul-Haque\CoreWebApi\CoreWebApi\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\imran\Desktop\1254159-Md.Anarul-Haque\CoreWebApi\CoreWebApi\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\imran\Desktop\1254159-Md.Anarul-Haque\CoreWebApi\CoreWebApi\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\imran\Desktop\1254159-Md.Anarul-Haque\CoreWebApi\CoreWebApi\bin\Debug\netcoreapp2.2\CoreWebApi.deps.json
+C:\Users\imran\Desktop\1254159-Md.Anarul-Haque\CoreWebApi\CoreWebApi\bin\Debug\netcoreapp2.2\CoreWebApi.runtimeconfig.json
+C:\Users\imran\Desktop\1254159-Md.Anarul-Haque\CoreWebApi\CoreWebApi\bin\Debug\netcoreapp2.2\CoreWebApi.runtimeconfig.dev.json
+C:\Users\imran\Desktop\1254159-Md.Anarul-Haque\CoreWebApi\CoreWebApi\bin\Debug\netcoreapp2.2\CoreWebApi.dll
+C:\Users\imran\Desktop\1254159-Md.Anarul-Haque\CoreWebApi\CoreWebApi\obj\Debug\netcoreapp2.2\CoreWebApi.csprojAssemblyReference.cache
+C:\Users\imran\Desktop\1254159-Md.Anarul-Haque\CoreWebApi\CoreWebApi\obj\Debug\netcoreapp2.2\CoreWebApi.RazorAssemblyInfo.cache
+C:\Users\imran\Desktop\1254159-Md.Anarul-Haque\CoreWebApi\CoreWebApi\obj\Debug\netcoreapp2.2\CoreWebApi.RazorAssemblyInfo.cs
+C:\Users\imran\Desktop\1254159-Md.Anarul-Haque\CoreWebApi\CoreWebApi\obj\Debug\netcoreapp2.2\CoreWebApi.AssemblyInfoInputs.cache
+C:\Users\imran\Desktop\1254159-Md.Anarul-Haque\CoreWebApi\CoreWebApi\obj\Debug\netcoreapp2.2\CoreWebApi.AssemblyInfo.cs
+C:\Users\imran\Desktop\1254159-Md.Anarul-Haque\CoreWebApi\CoreWebApi\obj\Debug\netcoreapp2.2\CoreWebApi.RazorTargetAssemblyInfo.cache
+C:\Users\imran\Desktop\1254159-Md.Anarul-Haque\CoreWebApi\CoreWebApi\bin\Debug\netcoreapp2.2\CoreWebApi.pdb
+C:\Users\imran\Desktop\1254159-Md.Anarul-Haque\CoreWebApi\CoreWebApi\obj\Debug\netcoreapp2.2\CoreWebApi.dll
+C:\Users\imran\Desktop\1254159-Md.Anarul-Haque\CoreWebApi\CoreWebApi\obj\Debug\netcoreapp2.2\CoreWebApi.pdb
